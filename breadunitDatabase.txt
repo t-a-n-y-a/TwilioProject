@@ -1,0 +1,82 @@
+-- phpMyAdmin SQL Dump
+-- version 2.6.0-pl3
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Oct 07, 2015 at 10:27 PM
+-- Server version: 5.5.44
+-- PHP Version: 5.4.44-0+deb7u1
+-- 
+-- Database: `sahin_pace`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `BreadUnits`
+-- 
+
+CREATE TABLE `BreadUnits` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `itemName` varchar(40) NOT NULL,
+  `breadUnit` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `itemName` (`itemName`)
+) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=latin1 AUTO_INCREMENT=55 ;
+
+-- 
+-- Dumping data for table `BreadUnits`
+-- 
+
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (3, 'bread, 1 slice', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (4, 'bread stuffing, 1/2 cup', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (5, 'breadstick', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (6, 'bun (hamburger or hot dog)', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (7, 'corn bread, 2'''' cube', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (8, 'croissant, medium size', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (9, 'croutons, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (10, 'dinner roll, small', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (11, 'english muffin', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (12, 'pancake, 6'''' diameter', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (13, 'tortilla, 7''''', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (14, 'waffle', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (15, 'oatmeal cooked, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (16, 'cream of wheat cooked, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (17, 'beans or lentils, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (18, 'flour, 3Tbsp', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (19, 'hummus, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (20, 'pasta cooked, 1 cup', 4);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (21, 'rice cooked, 1 cup', 4);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (22, 'corn cooked, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (23, 'peas, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (24, 'potatoes, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (25, 'sqaush, 1 cup', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (26, 'milk, 1 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (27, 'rice milk plain, 1 cup', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (28, 'soy milk plain, 1 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (29, 'yogurt plain, 1 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (30, 'banana', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (31, 'donut', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (32, 'muffin', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (33, 'dark chocolate, 1 oz', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (34, 'ice cream, 1/2 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (35, 'popcorn, 3 cups', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (36, 'potato chips, 1 oz', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (37, 'honey, 1 Tbsp', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (38, 'ketchup, 1/4 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (39, 'sugar, 1 Tbsp', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (40, '1 slice of 12'''' pizza', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (41, 'carrot juice, 1 cup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (42, 'orange juice, 1 cup', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (43, 'grape juice, 1 cup', 3);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (44, 'cranberry juice, 1 cup', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (45, 'fruit jam or jelly, 1 Tbsp', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (46, 'egg roll', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (47, 'saltine crackers, 7 squares', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (48, 'graham crackers, 3 squares', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (49, 'barbecue sauce BBQ, 2 Tbsp', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (50, '11 small pretzels', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (51, '1/4 cup of sloppy joe sauce', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (52, '1 Tbsp syrup', 1);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (53, 'apple', 2);
+INSERT INTO `BreadUnits` (`id`, `itemName`, `breadUnit`) VALUES (54, 'bagel', 4);
